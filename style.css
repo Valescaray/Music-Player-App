@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.container {
+    width:300px;
+    height: 400px;
+    background: rgb(255, 215, 222);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.less-than {
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 3px 3px rgb(216, 180, 186);
+    top: 20px;
+    
+}
+.less-than svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: rgb(197, 125, 137);
+}
+
+.mid {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 4px 30px 3px rgb(216, 180, 186);
+}
+
+.mid img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.song {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.song span {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 18px;
+
+}
+
+.progress-bar {
+    width: 80%; /* Width of the progress bar */
+    height: 5px; /* Height of the progress bar */
+    background-color: #ccc; /* Background color of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .progress {
+    width: 0%; /* Initial width of the progress bar */
+    height: 100%;
+    background-color:  rgb(250, 108, 132); /* Color of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+  }
+
+.bottom {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.backward {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 3px 3px rgb(216, 180, 186)
+}
+
+.backward svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: rgb(246, 194, 202);
+} 
+.forward {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 3px 3px rgb(216, 180, 186)
+}
+
+.forward svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: rgb(246, 194, 202);
+}
+
+.play {
+    width: 50px;
+    height: 50px;
+    background: rgb(241, 110, 132);
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 3px 3px rgb(216, 180, 186)
+}
+
+.play svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
